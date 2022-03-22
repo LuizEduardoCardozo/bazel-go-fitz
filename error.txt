@@ -1,0 +1,61 @@
+INFO: Build option --define has changed, discarding analysis cache.
+INFO: Analyzed 2 targets (0 packages loaded, 7401 targets configured).
+INFO: Found 2 targets...
+ERROR: /home/eduardo.cardozo/.cache/bazel/_bazel_eduardo.cardozo/298e3f4ef742d30c2aa0ed162984106b/external/com_github_gen2brain_go_fitz/BUILD.bazel:3:11: GoCompilePkg external/com_github_gen2brain_go_fitz/go-fitz.a failed: (Exit 1): builder failed: error executing command bazel-out/k8-opt-exec-2B5CBBC6/bin/external/go_sdk/builder compilepkg -sdk external/go_sdk -installsuffix linux_amd64 -tags extlib,pkgconfig,extlib,pkgconfig -src ... (remaining 29 arguments skipped)
+
+Use --sandbox_debug to see verbose messages from the sandbox
+/usr/bin/ld.gold: error: cannot find -lmupdf_linux_amd64
+/usr/bin/ld.gold: error: cannot find -lmupdfthird_linux_amd64
+/tmp/rules_go_work-002962491/_cgo_main.o:_cgo_main.c:_cgohack_fz_default_color_params: error: undefined reference to 'fz_default_color_params'
+/tmp/rules_go_work-002962491/_cgo_main.o:_cgo_main.c:_cgohack_fz_identity: error: undefined reference to 'fz_identity'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_bound_page: error: undefined reference to 'fz_bound_page'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_buffer_storage: error: undefined reference to 'fz_buffer_storage'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_clear_pixmap_with_value: error: undefined reference to 'fz_clear_pixmap_with_value'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_close_device: error: undefined reference to 'fz_close_device'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_count_pages: error: undefined reference to 'fz_count_pages'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_device_rgb: error: undefined reference to 'fz_device_rgb'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_drop_buffer: error: undefined reference to 'fz_drop_buffer'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_drop_context: error: undefined reference to 'fz_drop_context'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_drop_device: error: undefined reference to 'fz_drop_device'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_drop_document: error: undefined reference to 'fz_drop_document'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_drop_outline: error: undefined reference to 'fz_drop_outline'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_drop_output: error: undefined reference to 'fz_drop_output'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_drop_page: error: undefined reference to 'fz_drop_page'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_drop_pixmap: error: undefined reference to 'fz_drop_pixmap'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_drop_stext_page: error: undefined reference to 'fz_drop_stext_page'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_drop_stream: error: undefined reference to 'fz_drop_stream'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_enable_device_hints: error: undefined reference to 'fz_enable_device_hints'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_keep_stream: error: undefined reference to 'fz_keep_stream'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_load_outline: error: undefined reference to 'fz_load_outline'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_load_page: error: undefined reference to 'fz_load_page'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_lookup_metadata: error: undefined reference to 'fz_lookup_metadata'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_needs_password: error: undefined reference to 'fz_needs_password'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_new_buffer: error: undefined reference to 'fz_new_buffer'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_new_buffer_from_pixmap_as_png: error: undefined reference to 'fz_new_buffer_from_pixmap_as_png'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_new_buffer_from_stext_page: error: undefined reference to 'fz_new_buffer_from_stext_page'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_new_context_imp: error: undefined reference to 'fz_new_context_imp'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_new_draw_device: error: undefined reference to 'fz_new_draw_device'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_new_output_with_buffer: error: undefined reference to 'fz_new_output_with_buffer'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_new_pixmap_with_bbox: error: undefined reference to 'fz_new_pixmap_with_bbox'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_new_stext_device: error: undefined reference to 'fz_new_stext_device'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_new_stext_page: error: undefined reference to 'fz_new_stext_page'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_new_svg_device: error: undefined reference to 'fz_new_svg_device'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_open_document: error: undefined reference to 'fz_open_document'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_open_document_with_stream: error: undefined reference to 'fz_open_document_with_stream'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_open_memory: error: undefined reference to 'fz_open_memory'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_pixmap_samples: error: undefined reference to 'fz_pixmap_samples'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_print_stext_header_as_html: error: undefined reference to 'fz_print_stext_header_as_html'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_print_stext_page_as_html: error: undefined reference to 'fz_print_stext_page_as_html'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_print_stext_trailer_as_html: error: undefined reference to 'fz_print_stext_trailer_as_html'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_register_document_handlers: error: undefined reference to 'fz_register_document_handlers'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_round_rect: error: undefined reference to 'fz_round_rect'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_run_page: error: undefined reference to 'fz_run_page'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_scale: error: undefined reference to 'fz_scale'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_string_from_buffer: error: undefined reference to 'fz_string_from_buffer'
+/tmp/rules_go_work-002962491/_x1.o:fitz.cgo2.c:function _cgo_a3b9f617d354_Cfunc_fz_transform_rect: error: undefined reference to 'fz_transform_rect'
+collect2: error: ld returned 1 exit status
+compilepkg: error running subcommand /usr/bin/gcc: exit status 1
+INFO: Elapsed time: 0.850s, Critical Path: 0.52s
+INFO: 2 processes: 2 internal.
+FAILED: Build did NOT complete successfully
+
